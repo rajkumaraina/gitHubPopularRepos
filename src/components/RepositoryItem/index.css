@@ -1,0 +1,41 @@
+.reposListItem {
+  background-color: #f8f8ff;
+  margin: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  width: 25%;
+  height: 250px;
+}
+.avatar {
+  width: 85px;
+  height: 65px;
+  margin-top: 25px;
+}
+.name {
+  color: #e73959;
+  margin: 6px;
+  font-size: 18px;
+}
+.counts {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+.smallImg {
+  width: 20px;
+  margin: 8px;
+  height: 20px;
+}
+.values {
+  color: #1e293b;
+  margin: 4px;
+}
+@media (max-width: 576px) {
+  .reposListItem {
+    width: 80%;
+  }
+}

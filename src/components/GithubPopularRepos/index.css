@@ -1,0 +1,32 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #333333;
+  margin-top: 35px;
+  font-family: 'lobster';
+}
+.unordered {
+  display: flex;
+
+  padding: 0;
+}
+.itemsUnordered {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+.failure {
+  width: 80%;
+  height: 50vh;
+}
+.failureHeading {
+  color: #333333;
+  font-family: 'lobster';
+}

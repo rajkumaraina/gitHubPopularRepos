@@ -1,0 +1,25 @@
+.listItem {
+  list-style-type: none;
+  margin-right: 25px;
+  margin-top: 15px;
+}
+
+.languageButton {
+  background-color: transparent;
+  border: 0 none;
+  outline: none;
+  font-size: 18px;
+  cursor: pointer;
+  padding: 8px;
+  color: #0f172a;
+}
+.active {
+  border: 1px solid #0284c7;
+  border-radius: 12px;
+  color: #0284c7;
+}
+@media (max-width: 576px) {
+  .listItem {
+    margin-right: 12px;
+  }
+}
